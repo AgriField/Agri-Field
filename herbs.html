@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.htlm"><img src="img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Crops.html">Crops</a></li>
+                    <li><a href="Contacts.html">Contacts</a></li>
+                    <li><a href="forum.php">Forum</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="wrapper">
+            <h6>HERBS</h6>
+            <div class="buttons">
+                <a href="Crops.html">Go Back</a>
+            </div>
+            <div class="cont">
+                <div class="box">
+                    <img src="img/g.jfif">
+                    <h3>Parsley</h3>
+                    <p>Parsley, or garden parsley is a species of flowering plant in the family Apiaceae that is native to the central and eastern Mediterranean region, but has been naturalized elsewhere in Europe, and is widely cultivated as a herb, and a vegetable.</p>
+                    <a href="herbs/parsley.html" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="img/h.jpg">
+                    <h3>Rosemary</h3>
+                    <p>A woody, evergreen herb with a distinctive, pungent aroma, rosemary is native to the Mediterranean. It’s a popular ingredient in many Italian dishes and some types of French cuisine. </p>
+                    <a href="herbs/rosemary.html" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="img/j.jpg">
+                    <h3>Basil</h3>
+                    <p>Native to central Africa and Southeast Asia, basil is a fragrant, sweet herb widely used in many different types of cuisine, especially Italian, Thai, and Middle Eastern.</p>
+                    <a href="herbs/basil.html" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="img/k.jpg">
+                    <h3>Cilantro</h3>
+                    <p>Cilantro is a fragrant, flavorful herb popular in many different types of cuisine, including Mexican, Thai, and Vietnamese.This verdant herb has a slightly citrusy flavor and is often used as a garnish. It’s also a key ingredient in many types of salsa.</p>
+                    <a href="herbs/cilantro.html" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="img/l.jfif">
+                    <h3>Oregano</h3>
+                    <p>Oregano is a popular herb often used in Italian and Greek cuisine. It has a slightly sweet, earthy flavor that goes well with many different dishes, including tomato-based sauces, soups, and stews. You can also use it to flavor meat, poultry, and fish.
+                    </p>
+                    <a href="herbs/oregano.html" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="img/z.jpg">
+                    <h3>Mint </h3>
+                    <p>It is a popular ingredient in many types of cuisine, including Middle Eastern, Asian, and Indian thanks to its refreshing, slightly sweet flavor that goes well in salads, desserts, and drinks.</p>
+                    <a href="herbs/mint.html" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+    Copyright &copy;2022
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+    </div>
+    <p>Made by AgriField</p>
+</section>
+    
+  
+    
+    <!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+</body>
+</html>
+    
+    

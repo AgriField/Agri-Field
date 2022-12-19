@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php" class="active">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Crops.html">Crops</a></li>
+                    <li><a href="Contacts.html">Contacts</a></li>
+                    <li><a href="forum.php">Forum</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+
+<section class="about">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>About Us</h1>
+            <p>
+                We created this website to helps beginners to plant their crops to provide information, resources, and support people who are new to gardening or farming. This can be useful for a variety of reasons, including: 
+                To provide guidance: This website will helps beginners to plant their crops can provide step-by-step guides, tutorials, and other resources to help beginners learn how to plant and care for their crops. 
+                To provide support: This website will helps beginners to plant their crops can also provide a platform for beginners to connect with each other and share their experiences, challenges, and successes. 
+                To promote sustainable practices: This website will helps beginners to plant their crops can also provide information about sustainable gardening and farming practices, such as reducing the use of pesticides and fertilizers, conserving water, and promoting biodiversity. 
+                We made to website so that we can help to educate beginners about the importance of sustainable agriculture and encourage them to adopt these practices in their own operations.
+                </p>
+            <a href="Crops.html" class="links red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="img/agri.png" >
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="footer">
+    Copyright &copy;2022
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+    </div>
+    <p>Made by AgriField</p>
+</section>
+    
+    
+    
+    
+    
+    <!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+</body>
+</html>
+    
+    
